@@ -1,0 +1,13 @@
+
+version: 2
+
+# Configuração da fonte de dados
+sources:
+  - name: raw
+    tables:
+      - name: sales
+        identifier: raw_gz_sales
+      - name: product
+        identifier: produto_cru_gz
+      - name: ship
+        identifier: raw_gz_ship
